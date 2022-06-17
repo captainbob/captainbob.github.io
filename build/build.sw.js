@@ -4,7 +4,7 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.3.0/workbox
 // 注册成功后要立即缓存的资源列表
 workbox.precaching.precacheAndRoute([
   {
-    "url": "index.html",
+    "url": "https://captainbob.github.io/build/index.html",
     "revision": "b331f695"
   },
 ]);
