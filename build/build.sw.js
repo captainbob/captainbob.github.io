@@ -4,21 +4,9 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.3.0/workbox
 // 注册成功后要立即缓存的资源列表
 workbox.precaching.precacheAndRoute([
   {
-    "url": "css/index.css",
-    "revision": "835ba5c3"
-  },
-  {
-    "url": "images/xxx.png",
-    "revision": "b1537bfs"
-  },
-  {
     "url": "index.html",
     "revision": "b331f695"
   },
-  {
-    "url": "js/index.js",
-    "revision": "4d562866"
-  }
 ]);
 
 // 缓存策略
