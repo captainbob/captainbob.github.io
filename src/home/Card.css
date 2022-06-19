@@ -1,8 +1,9 @@
 .card-container {
     position: relative;
     left: 72px;
-    top: 20vh;
+    padding-top: 20vh;
     width: 230px;
+    padding-bottom: 30px;
 }
 .card-main {
     display: flex;

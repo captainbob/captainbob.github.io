@@ -27,7 +27,18 @@ export function getWeatherEnum (val) {
     const enums = {
         '阴': weatherEnum.cloudy,
         '多云': weatherEnum.cloudy,
+        '少云': weatherEnum.cloudy,
+        '晴间多云': weatherEnum.cloudy,
         '小雨': weatherEnum.rain,
+        '中雨': weatherEnum.rain,
+        '大雨': weatherEnum.rain,
+        '中到大雨': weatherEnum.rain,
+        '阵雨': weatherEnum.rain,
+        '强阵雨': weatherEnum.rain,
+        '雷阵雨': weatherEnum.rain,
+        '强雷阵雨': weatherEnum.rain,
+        '晴':  weatherEnum.sun,
+
     }
     return enums[val]
 }
@@ -43,21 +54,21 @@ export const weatherEnum = {
 export function getWeatherImg(val, date) {
     const myDate = new Date(date)
     const hours = myDate.getHours(myDate)
-    let type = 'am'
-    if (hours > 12) {
-        type =  ' pm'
+    let type = 'sun'
+    if (hours > 18 || hours < 6) {
+        type =  'night'
     }
     if (val === weatherEnum.cloudy) {
-        return type === 'am' ? CloudsSvg : CloudsNightSvg
+        return type === 'sun' ? CloudsSvg : CloudsNightSvg
     } 
     if (val === weatherEnum.rain) {
-        return type === 'am' ? RainsSvg : RainNightSvg
+        return type === 'sun' ? RainsSvg : RainNightSvg
     }
     if (val === weatherEnum.sun) {
-        return type === 'am' ? SunSvg : SunNightSvg
+        return type === 'sun' ? SunSvg : SunNightSvg
     }
     if (val === weatherEnum.wind) {
-        return type === 'am' ? WindSvg : WindNightSvg
+        return type === 'sun' ? WindSvg : WindNightSvg
     }
     return null
 }

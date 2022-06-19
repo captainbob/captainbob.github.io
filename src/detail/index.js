@@ -47,8 +47,8 @@ export default function () {
     return (
         <div className="detail-main-container">
             <div className="top-main">
-                <div><Link to="/"><img src={BackArrow} style={{color:'#332821'}}></img></Link></div>
-                <div><img src={getWeatherImg(weather.weather && weather.weather[0], weather.obsTime)} style={{width: 100}}></img></div>
+                <div><Link to="/"><img src={BackArrow} className="detail-back-arrow" style={{color:'#332821'}}></img></Link></div>
+                <div><img src={getWeatherImg(weather.weather && weather.weather[0], weather.obsTime)} className='datail-img-wea'></img></div>
             </div>
             <div className="top-address">{weather.address}</div>
             <div className="detail-celsius">
