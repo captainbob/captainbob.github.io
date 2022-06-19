@@ -1,11 +1,11 @@
-import CloudsSvg from "./imgs/weather/Clouds.svg";
-import CloudsNightSvg from "./imgs/weather/Clouds-night.svg";
-import RainsSvg from "./imgs/weather/Rain.svg";
-import RainNightSvg from "./imgs/weather/Rain-night.svg";
-import SunSvg from "./imgs/weather/Sun.svg";
-import SunNightSvg from "./imgs/weather/Sun-night.svg";
-import WindSvg from "./imgs/weather/Wind.svg";
-import WindNightSvg from "./imgs/weather/Wind-night.svg";
+import CloudsPng from "./imgs/weather/Clouds.png";
+import CloudsNightPng from "./imgs/weather/Clouds-night.png";
+import RainsPng from "./imgs/weather/Rain.png";
+import RainNightPng from "./imgs/weather/Rain-night.png";
+import SunPng from "./imgs/weather/Sun.png";
+import SunNightPng from "./imgs/weather/Sun-night.png";
+import WindPng from "./imgs/weather/Wind.png";
+import WindNightPng from "./imgs/weather/Wind-night.png";
 
 export function getWeek(date) {
     const weekEnum = ['周日', '周一', '周二','周三','周四','周五','周六']
@@ -59,16 +59,16 @@ export function getWeatherImg(val, date) {
         type =  'night'
     }
     if (val === weatherEnum.cloudy) {
-        return type === 'sun' ? CloudsSvg : CloudsNightSvg
+        return type === 'sun' ? CloudsPng : CloudsNightPng
     } 
     if (val === weatherEnum.rain) {
-        return type === 'sun' ? RainsSvg : RainNightSvg
+        return type === 'sun' ? RainsPng : RainNightPng
     }
     if (val === weatherEnum.sun) {
-        return type === 'sun' ? SunSvg : SunNightSvg
+        return type === 'sun' ? SunPng : SunNightPng
     }
     if (val === weatherEnum.wind) {
-        return type === 'sun' ? WindSvg : WindNightSvg
+        return type === 'sun' ? WindPng : WindNightPng
     }
     return null
 }

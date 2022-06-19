@@ -1,17 +1,16 @@
 {
   "files": {
     "main.css": "./static/css/main.4f719f62.css",
-    "main.js": "./static/js/main.c1a20fd3.js",
+    "main.js": "./static/js/main.7a27967b.js",
     "static/js/787.28cb0dcd.chunk.js": "./static/js/787.28cb0dcd.chunk.js",
-    "static/media/Wind.svg": "./static/media/Wind.0e90b10400b126384aded25e9842876e.svg",
-    "static/media/Rain.svg": "./static/media/Rain.949f5155cf04f22a834af8560913e1e1.svg",
-    "static/media/Sun.svg": "./static/media/Sun.bb484d7bb3d37ce7d532a2d043c46c8f.svg",
-    "static/media/Clouds.svg": "./static/media/Clouds.147591360c6fa51ab6d97a27175133f8.svg",
-    "static/media/Wind-night.svg": "./static/media/Wind-night.35d84726b3869e8cb7347de3dfc0d948.svg",
-    "static/media/Rain-night.svg": "./static/media/Rain-night.853e298c4628102980922c12064cefb6.svg",
-    "static/media/Clouds-night.svg": "./static/media/Clouds-night.413f75728fd0eafd802294ea8f7a6a72.svg",
-    "static/media/Sun-night.svg": "./static/media/Sun-night.df36afbe1dc6a7746bf0c868e57f1660.svg",
     "static/media/Wind.png": "./static/media/Wind.png",
+    "static/media/Clouds.png": "./static/media/Clouds.png",
+    "static/media/Rain.png": "./static/media/Rain.png",
+    "static/media/Sun.png": "./static/media/Sun.png",
+    "static/media/Wind-night.png": "./static/media/Wind-night.png",
+    "static/media/Rain-night.png": "./static/media/Rain-night.png",
+    "static/media/Clouds-night.png": "./static/media/Clouds-night.png",
+    "static/media/Sun-night.png": "./static/media/Sun-night.png",
     "static/media/detail-wind.svg": "./static/media/detail-wind.114b8afec38f9bb583e5ef1939803416.svg",
     "static/media/wind.svg": "./static/media/wind.5200d5fe8517308ac49ddc87d5d80640.svg",
     "static/media/detail-humidity.svg": "./static/media/detail-humidity.b0bc4387f3e898a1208871d54c22f6a6.svg",
@@ -20,13 +19,12 @@
     "static/media/rain.svg": "./static/media/rain.edf152485765efcd0283f439d5cab76b.svg",
     "index.html": "./index.html",
     "static/media/home.svg": "./static/media/home.26cf92ffa0fe76686feeb765774ddf66.svg",
-    "static/media/back.svg": "./static/media/back.88506e0f47ed467a1061dfd624d1a21a.svg",
     "main.4f719f62.css.map": "./static/css/main.4f719f62.css.map",
-    "main.c1a20fd3.js.map": "./static/js/main.c1a20fd3.js.map",
+    "main.7a27967b.js.map": "./static/js/main.7a27967b.js.map",
     "787.28cb0dcd.chunk.js.map": "./static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f719f62.css",
-    "static/js/main.c1a20fd3.js"
+    "static/js/main.7a27967b.js"
   ]
 }

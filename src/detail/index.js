@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from "react";
-import BackArrow from "../imgs/back.svg";
-import WindPng from "../imgs/Wind.png";
+import BackArrow from "../imgs/back.png";
 import rainSvg from "../imgs/detail-rain.svg"
 import humiditySvg from "../imgs/detail-humidity.svg"
 import windSvg from "../imgs/detail-wind.svg"
