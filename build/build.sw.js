@@ -5,7 +5,7 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.3.0/workbox
 workbox.precaching.precacheAndRoute([
   {
     "url": "index.html",
-    "revision": "ffa234ccc"
+    "revision": "gga234ccc"
   },
   {
     "url": 'static/media/Clouds.png',
